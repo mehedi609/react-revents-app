@@ -120,7 +120,7 @@ class EventDashboard extends Component {
           <EventList
             events={events}
             selectEvent={this.handleSelectEvent}
-            deletedEvent={this.handleDeleteEvent}
+            deleteEvent={this.handleDeleteEvent}
           />
         </GridColumn>
 
